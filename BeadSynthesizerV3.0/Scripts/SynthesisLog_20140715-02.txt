@@ -1,0 +1,132 @@
+15-Jul-2014 14:44:03
+D:\Secondlife-32\Matlab\BeadSynthesizerV3.0\Scripts\SynthesisLog_20140715-02.txt
+BEAD PRODUCTION LOG
+Chip serial code: BS3.0B-PMF-06.12.14-ch01
+Sm = [0.00  0.14  0.37  0.78]
+Dy = [0.00  0.11  0.32  0.71]
+Tm = [0.00  0.28  0.76]
+Mixer cleaning time = 6.00 sec
+Mixing time = 1.00 min 45.00 sec
+Drop stabilization time = 45.00 sec
+UV polymerization time = 2.00 min 30.00 sec
+Polymerization channel = Polymerization
+Resistances Mixer 1 = [Sm, Dy, Tm, Eu, mix] [14.84  14.58  17.32  14.00   0.61]
+Resistances Mix2r 2 = [Sm, Dy, Tm, Eu, mix] [14.97  14.74  15.90  14.00   0.29]
+Flush/clean water: ch = 1, press = 6.00 psi
+Oil: ch = 3, press = 11.00 psi
+Push Water: ch = 2, press = 6.00 psi
+Lanthanide MFCS Channels: [Sm, Dy, Tm, Eu]  [6,  7,  4,  5,]
+Lanthanide Valves: [Sm, Dy, Tm, Eu]  [C2,  C3,  C4,  C1]
+Mixer 1
+Code#	Flow_Sm	Flow_Dy	Flow_Tm	Flow_Eu	P_Sm	P_Dy	P_Tm	P_Eu
+1	0.00	0.00	0.00	1.00	0.61	 0.61	 0.61	14.61
+2	0.00	0.00	0.28	0.72	0.61	 0.61	 5.49	10.67
+3	0.00	0.00	0.76	0.24	0.61	 0.61	13.71	 4.03
+4	0.00	0.11	0.00	0.89	0.61	 2.27	 0.61	13.03
+5	0.00	0.11	0.28	0.61	0.61	2.27	5.49	9.09
+6	0.00	0.11	0.76	0.13	0.61	 2.27	13.71	 2.44
+7	0.00	0.32	0.00	0.68	0.61	 5.32	 0.61	10.10
+8	0.00	0.32	0.28	0.40	0.61	5.32	5.49	6.16
+9	0.00	0.71	0.00	0.29	0.61	10.96	 0.61	 4.68
+10	0.00	0.71	0.28	0.01	0.61	10.96	 5.49	 0.74
+11	0.14	0.00	0.00	0.86	2.64	 0.61	 0.61	12.71
+12	0.14	0.00	0.28	0.58	2.64	0.61	5.49	8.76
+13	0.14	0.00	0.76	0.11	2.64	 0.61	13.71	 2.12
+14	0.14	0.11	0.00	0.75	2.64	 2.27	 0.61	11.12
+15	0.14	0.11	0.28	0.47	2.64	2.27	5.49	7.18
+16	0.14	0.32	0.00	0.54	2.64	5.32	0.61	8.19
+17	0.14	0.32	0.28	0.26	2.64	5.32	5.49	4.25
+18	0.14	0.71	0.00	0.15	2.64	10.96	 0.61	 2.77
+19	0.37	0.00	0.00	0.63	6.12	0.61	0.61	9.41
+20	0.37	0.00	0.28	0.35	6.12	0.61	5.49	5.47
+21	0.37	0.11	0.00	0.52	6.12	2.27	0.61	7.83
+22	0.37	0.11	0.28	0.23	6.12	2.27	5.49	3.89
+23	0.37	0.32	0.00	0.31	6.12	5.32	0.61	4.90
+24	0.37	0.32	0.28	0.02	6.12	5.32	5.49	0.96
+25	0.78	0.00	0.00	0.22	12.14	 0.61	 0.61	 3.74
+26	0.78	0.11	0.00	0.11	12.14	 2.27	 0.61	 2.15
+Mixer 2
+Code#	Flow_Sm	Flow_Dy	Flow_Tm	Flow_Eu	P_Sm	P_Dy	P_Tm	P_Eu
+1	0.00	0.00	0.00	1.00	0.29	 0.29	 0.29	14.29
+2	0.00	0.00	0.28	0.72	0.29	 0.29	 4.76	10.34
+3	0.00	0.00	0.76	0.24	0.29	 0.29	12.30	 3.70
+4	0.00	0.11	0.00	0.89	0.29	 1.96	 0.29	12.70
+5	0.00	0.11	0.28	0.61	0.29	1.96	4.76	8.76
+6	0.00	0.11	0.76	0.13	0.29	 1.96	12.30	 2.12
+7	0.00	0.32	0.00	0.68	0.29	5.04	0.29	9.77
+8	0.00	0.32	0.28	0.40	0.29	5.04	4.76	5.83
+9	0.00	0.71	0.00	0.29	0.29	10.74	 0.29	 4.35
+10	0.00	0.71	0.28	0.01	0.29	10.74	 4.76	 0.41
+11	0.14	0.00	0.00	0.86	2.33	 0.29	 0.29	12.38
+12	0.14	0.00	0.28	0.58	2.33	0.29	4.76	8.44
+13	0.14	0.00	0.76	0.11	2.33	 0.29	12.30	 1.79
+14	0.14	0.11	0.00	0.75	2.33	 1.96	 0.29	10.79
+15	0.14	0.11	0.28	0.47	2.33	1.96	4.76	6.85
+16	0.14	0.32	0.00	0.54	2.33	5.04	0.29	7.86
+17	0.14	0.32	0.28	0.26	2.33	5.04	4.76	3.92
+18	0.14	0.71	0.00	0.15	2.33	10.74	 0.29	 2.45
+19	0.37	0.00	0.00	0.63	5.84	0.29	0.29	9.09
+20	0.37	0.00	0.28	0.35	5.84	0.29	4.76	5.15
+21	0.37	0.11	0.00	0.52	5.84	1.96	0.29	7.50
+22	0.37	0.11	0.28	0.23	5.84	1.96	4.76	3.56
+23	0.37	0.32	0.00	0.31	5.84	5.04	0.29	4.57
+24	0.37	0.32	0.28	0.02	5.84	5.04	4.76	0.63
+25	0.78	0.00	0.00	0.22	11.91	 0.29	 0.29	 3.41
+26	0.78	0.11	0.00	0.11	11.91	 1.96	 0.29	 1.82
+15-Jul-2014 14:44:05 Setting valves: 8 to 1
+15-Jul-2014 14:44:05 Setting valves: 9 to 1
+15-Jul-2014 14:44:05 Setting valves: 10 to 1
+15-Jul-2014 14:44:05 Setting valves: 11 to 1
+15-Jul-2014 14:44:05 Setting valves: 12 to 1
+15-Jul-2014 14:44:05 Setting valves: 13 to 1
+15-Jul-2014 14:44:05 Setting valves: 15 to 1
+15-Jul-2014 14:44:05 Setting valves: 16 to 1
+15-Jul-2014 14:44:05 Setting valves: 17 to 1
+15-Jul-2014 14:44:05 Setting valves: 18 to 1
+15-Jul-2014 14:44:05 Setting valves: 19 to 1
+15-Jul-2014 14:44:05 Setting valves: 20 to 1
+15-Jul-2014 14:44:06 Setting valves: 22 to 1
+15-Jul-2014 14:44:06 Setting valves: 23 to 1
+15-Jul-2014 14:44:06 Setting valves: 24 to 1
+15-Jul-2014 14:44:06 Setting valves: 25 to 1
+15-Jul-2014 14:44:06 Setting valves: 26 to 1
+15-Jul-2014 14:44:06 Setting valves: 27 to 1
+15-Jul-2014 14:44:06 Setting valves: 28 to 1
+15-Jul-2014 14:44:06 Setting valves: 29 to 1
+15-Jul-2014 14:44:06 Setting valves: 30 to 1
+15-Jul-2014 14:44:06 Setting valves: 31 to 1
+15-Jul-2014 14:44:06 Setting valves: 32 to 1
+15-Jul-2014 14:44:06 Setting valves: 33 to 1
+15-Jul-2014 14:44:06 Setting valves: 34 to 1
+15-Jul-2014 14:44:06 Setting valves: 34 to 0
+15-Jul-2014 14:44:06 Setting valves: 9 to 0
+15-Jul-2014 14:44:06 Setting valves: 12  18 to 0  0
+15-Jul-2014 14:44:06 Setting valves: 24 to 0
+15-Jul-2014 14:44:07 Setting valves: 31 to 0
+15-Jul-2014 14:44:14 Setting valves: 24 to 1
+15-Jul-2014 14:44:14 Setting valves: 19 to 0
+15-Jul-2014 14:46:00 Setting valves: 20  22  23  19 to 1  1  1  1
+15-Jul-2014 14:46:01 Setting valves: 12  18 to 1  1
+15-Jul-2014 14:46:01 Setting valves: 16 to 0
+15-Jul-2014 14:46:01 Setting valves: 13 to 0
+15-Jul-2014 14:46:17 Setting valves: 11 to 0
+% Making Code # 1 = [0.00  0.00  0.00  1.00]
+15-Jul-2014 14:49:36 Setting valves: 11 to 1
+15-Jul-2014 14:49:36 Setting valves: 11 to 1
+15-Jul-2014 14:49:37 Setting valves: 13 to 1
+15-Jul-2014 14:49:37 Setting valves: 12  18 to 0  0
+15-Jul-2014 14:49:37 Setting valves: 24 to 0
+15-Jul-2014 14:49:38 Setting valves: 31 to 0
+15-Jul-2014 14:49:45 Setting valves: 24 to 1
+15-Jul-2014 14:49:46 Setting valves: 23 to 0
+15-Jul-2014 14:49:46 Setting valves: 19 to 0
+15-Jul-2014 14:50:20 Setting valves: 10 to 0
+15-Jul-2014 14:50:22 Setting valves: 10 to 1
+15-Jul-2014 14:50:22 Setting valves: 10 to 0
+15-Jul-2014 14:50:23 Setting valves: 10 to 1
+15-Jul-2014 14:50:24 Setting valves: 10 to 0
+15-Jul-2014 14:50:26 Setting valves: 10 to 1
+15-Jul-2014 14:50:26 Setting valves: 10 to 0
+15-Jul-2014 14:50:28 Setting valves: 10 to 1
+15-Jul-2014 14:50:29 Setting valves: 10 to 0
+15-Jul-2014 14:50:30 Setting valves: 10 to 1

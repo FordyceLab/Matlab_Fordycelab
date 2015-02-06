@@ -1,0 +1,40 @@
+14-May-2013 16:36:47
+Z:\Matlab\BeadSynthesizerV3.0\Scripts\SynthesisLog_20130514-02.txt
+BEAD PRODUCTION LOG
+Chip serial code: BS3.0-CAD-04.19.13-ch02
+Sm = [0.00  0.50  1.00]
+Dy = [0.00  0.50  1.00]
+Tm = [0.00]
+Mixer cleaning time = 6.00 sec
+Mixing time = 3.00 min 45.00 sec
+Drop stabilization time = 30.00 sec
+UV polymerization time = 2.00 min 30.00 sec
+Polymerization channel = Polymerization
+Resistances Mixer 1 = [Sm, Dy, Tm, Eu, mix] [13.19   8.20  13.19  14.00   0.38]
+Resistances Mix2r 2 = [Sm, Dy, Tm, Eu, mix] [10.52   9.33   9.33  14.00   0.52]
+Flush/clean water: ch = 1, press = 4.00 psi
+Oil: ch = 3, press = 15.00 psi
+Push Water: ch = 2, press = 5.00 psi
+Lanthanide MFCS Channels: [Sm, Dy, Tm, Eu]  [6,  7,  8,  5,]
+Lanthanide Valves: [Sm, Dy, Tm, Eu]  [C8,  C7,  C5,  C1]
+Mixer 1
+Code#	Flow_Sm	Flow_Dy	Flow_Tm	Flow_Eu	P_Sm	P_Dy	P_Tm	P_Eu
+1	0.00	0.00	0.00	1.00	0.38	 0.38	 0.38	14.38
+2	0.00	0.50	0.00	0.50	0.38	4.48	0.38	7.38
+3	0.00	1.00	0.00	0.00	0.38	8.59	0.38	0.38
+4	0.50	0.00	0.00	0.50	6.98	0.38	0.38	7.38
+5	0.50	0.50	0.00	0.00	6.98	4.48	0.38	0.38
+6	1.00	0.00	0.00	0.00	13.58	 0.38	 0.38	 0.38
+Mixer 2
+Code#	Flow_Sm	Flow_Dy	Flow_Tm	Flow_Eu	P_Sm	P_Dy	P_Tm	P_Eu
+1	0.00	0.00	0.00	1.00	0.52	 0.52	 0.52	14.52
+2	0.00	0.50	0.00	0.50	0.52	5.18	0.52	7.52
+3	0.00	1.00	0.00	0.00	0.52	9.85	0.52	0.52
+4	0.50	0.00	0.00	0.50	5.78	0.52	0.52	7.52
+5	0.50	0.50	0.00	0.00	5.78	5.18	0.52	0.52
+6	1.00	0.00	0.00	0.00	11.04	 0.52	 0.52	 0.52
+% Making Code # 1 = [0.00  0.00  0.00  1.00]
+% Making Code # 2 = [0.00  0.50  0.00  0.50]
+% Making Code # 3 = [0.00  1.00  0.00  0.00]
+% Making Code # 4 = [0.50  0.00  0.00  0.50]
+% STOPPED!
