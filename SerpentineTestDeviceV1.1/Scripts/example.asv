@@ -1,9 +1,0 @@
-for ii=1:1000
-    scriptCheck4Stop;
-    chip.openValve('SvA1');
-    pause(0.3);
-    chip.closeValve('SvA1');
-    pause(0.3);
-    chip.openValve('SvA2');
-    pause
-end
