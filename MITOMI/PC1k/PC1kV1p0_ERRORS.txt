@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 18:46:56
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 18:47:31 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 320
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 18:53:16
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 18:53:52 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 320
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 18:58:42
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 18:59:19 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 320
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 20:17:42
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 20:18:10 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 320
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 20:26:31
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 20:26:32 - PC1kV1p0:chipInit - 
+	Description: Wago controller configuration file "C:\Matlab_FordyceLab\MITOMI\PC1k\WagoController.txt" does not exist! wago_read_config, line: 23
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 20:28:41
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 20:28:42 - PC1kV1p0:chipInit - MATLAB:UndefinedFunction
+	Description: Undefined function or variable "aVcObj". wagoVcGui, line: 150
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 20:33:17
+% Error log file for PC1k v1.0 Chip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 20:39:28
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 20:40:11 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 20:41:12
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 20:41:39 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 20:59:28
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:00:10 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:02:52
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:03:15 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:04:20
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:04:21 - valveGuiControl:valvesInit - MATLAB:hg:InvalidProperty
+	Description: ERROR! . There is no Callback property on the Panel class. valveGuiControl/initValve, line: 298
+28-Jan-2015 21:04:32 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:06:29
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:06:31 - valveGuiControl:valvesInit - MATLAB:hg:InvalidProperty
+	Description: ERROR! . There is no Callback property on the Panel class. valveGuiControl/initValve, line: 298
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:12:48
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:13:22 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:23:30
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:25:10 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:28:47
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:29:50 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:33:08
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:33:26 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 21:35:05
+% Error log file for PC1k v1.0 Chip
+28-Jan-2015 21:35:32 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+02-Feb-2015 20:34:05 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 02-Feb-2015 20:41:33
+% Error log file for PC1k v1.0 Chip
+02-Feb-2015 20:41:57 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 324
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 02-Feb-2015 20:43:52
+% Error log file for PC1k v1.0 Chip
+02-Feb-2015 20:44:04 - valveGuiControl:valvesClose - MATLAB:string
+	Description: ERROR! . Argument must contain a string. wagoVcGui/objectClose, line: 327
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 05-Feb-2015 16:36:45
+% Error log file for PC1k v1.0 Chip

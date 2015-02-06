@@ -1,0 +1,6 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 15-Jan-2015 16:18:48
+% Error log file for Serpentine Test Device v1.1
+15-Jan-2015 16:22:01 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 320

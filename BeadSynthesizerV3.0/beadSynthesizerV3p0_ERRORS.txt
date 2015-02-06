@@ -1,0 +1,18 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 15-Jan-2015 16:06:38
+% Error log file for Bead Synthesis 3.0 Chip
+15-Jan-2015 16:06:40 - beadSynthesizerV3p0:chipInit - 
+	Description: Wago controller configuration file "C:\Matlab_FordyceLab\Common\WagoController.txt" does not exist! wago_read_config, line: 23
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 15-Jan-2015 16:12:36
+% Error log file for Bead Synthesis 3.0 Chip
+15-Jan-2015 16:14:09 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 320
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 28-Jan-2015 17:58:14
+% Error log file for Bead Synthesis 3.0 Chip
+28-Jan-2015 18:08:54 - valveGuiControl:valvesClose - MATLAB:UndefinedFunction
+	Description: ERROR! . Undefined function or variable 'wLog'. wagoVcGui/objectClose, line: 320

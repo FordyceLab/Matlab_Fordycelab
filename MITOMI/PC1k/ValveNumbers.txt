@@ -1,0 +1,19 @@
+% Default numbers assigned to the valves
+% and startup values.
+% Valve name <TAB> Valve number <TAB> Startup value (0=open/1=closed/9=don't change)
+
+Waste	0	1
+bBSA	1	1
+NA	2	1
+pHis	3	1
+Ext1	4	1
+Ext2	5	1
+Protein	6	1
+Hepes	7	1
+In	8	1
+B1	9	1
+S1	10	1
+S2	11	1
+B2	12	1
+Neck	13	1
+Out	14	1

@@ -1,0 +1,7 @@
+% Cell Culture Chip v.2.0 locations
+1	0	0	950	1150
+calib1	1	0	0	0
+calib2	1	0	0	0
+xlim	0	0	0	0
+ylim	0	0	0	0
+	

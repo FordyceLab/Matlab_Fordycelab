@@ -1,0 +1,6 @@
+15-Apr-2014 20:03:30
+Z:\Matlab\BeadSynthesizerV3.0\Scripts\SynthesisLog_20140415-01.txt
+BEAD PRODUCTION LOG
+Chip serial code: BS3.0A-PMF-04.08.14-ch01
+Sm = [0.00  0.20  0.40  0.60  0.80  1.00]
+Dy = [0.00  0.20  0.40  0.60  0.80  1.00]

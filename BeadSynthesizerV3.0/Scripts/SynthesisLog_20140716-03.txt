@@ -1,0 +1,577 @@
+16-Jul-2014 15:52:34
+D:\Secondlife-32\Matlab\BeadSynthesizerV3.0\Scripts\SynthesisLog_20140716-03.txt
+BEAD PRODUCTION LOG
+Chip serial code: BS3.0B-PMF-06.12.14-ch02
+Sm = [0.00  0.14  0.37  0.78]
+Dy = [0.00  0.11  0.32  0.71]
+Tm = [0.00  0.28  0.76]
+Mixer cleaning time = 6.00 sec
+Mixing time = 1.00 min 45.00 sec
+Drop stabilization time = 45.00 sec
+UV polymerization time = 2.00 min 0.00 sec
+Polymerization channel = Polymerization
+Resistances Mixer 1 = [Sm, Dy, Tm, Eu, mix] [14.87  14.63  17.21  14.00   0.61]
+Resistances Mix2r 2 = [Sm, Dy, Tm, Eu, mix] [14.97  14.74  15.90  14.00   0.29]
+Flush/clean water: ch = 1, press = 6.00 psi
+Oil: ch = 3, press = 9.00 psi
+Push Water: ch = 2, press = 5.00 psi
+Lanthanide MFCS Channels: [Sm, Dy, Tm, Eu]  [6,  7,  4,  5,]
+Lanthanide Valves: [Sm, Dy, Tm, Eu]  [C2,  C3,  C4,  C1]
+Mixer 1
+Code#	Flow_Sm	Flow_Dy	Flow_Tm	Flow_Eu	P_Sm	P_Dy	P_Tm	P_Eu
+1	0.00	0.00	0.00	1.00	0.61	 0.61	 0.61	14.61
+2	0.00	0.00	0.28	0.72	0.61	 0.61	 5.46	10.67
+3	0.00	0.00	0.76	0.24	0.61	 0.61	13.63	 4.03
+4	0.00	0.11	0.00	0.89	0.61	 2.27	 0.61	13.03
+5	0.00	0.11	0.28	0.61	0.61	2.27	5.46	9.09
+6	0.00	0.11	0.76	0.13	0.61	 2.27	13.63	 2.44
+7	0.00	0.32	0.00	0.68	0.61	 5.33	 0.61	10.10
+8	0.00	0.32	0.28	0.40	0.61	5.33	5.46	6.16
+9	0.00	0.71	0.00	0.29	0.61	10.99	 0.61	 4.68
+10	0.00	0.71	0.28	0.01	0.61	10.99	 5.46	 0.74
+11	0.14	0.00	0.00	0.86	2.64	 0.61	 0.61	12.71
+12	0.14	0.00	0.28	0.58	2.64	0.61	5.46	8.76
+13	0.14	0.00	0.76	0.11	2.64	 0.61	13.63	 2.12
+14	0.14	0.11	0.00	0.75	2.64	 2.27	 0.61	11.12
+15	0.14	0.11	0.28	0.47	2.64	2.27	5.46	7.18
+16	0.14	0.32	0.00	0.54	2.64	5.33	0.61	8.19
+17	0.14	0.32	0.28	0.26	2.64	5.33	5.46	4.25
+18	0.14	0.71	0.00	0.15	2.64	10.99	 0.61	 2.77
+19	0.37	0.00	0.00	0.63	6.14	0.61	0.61	9.41
+20	0.37	0.00	0.28	0.35	6.14	0.61	5.46	5.47
+21	0.37	0.11	0.00	0.52	6.14	2.27	0.61	7.83
+22	0.37	0.11	0.28	0.23	6.14	2.27	5.46	3.89
+23	0.37	0.32	0.00	0.31	6.14	5.33	0.61	4.90
+24	0.37	0.32	0.28	0.02	6.14	5.33	5.46	0.96
+25	0.78	0.00	0.00	0.22	12.17	 0.61	 0.61	 3.74
+26	0.78	0.11	0.00	0.11	12.17	 2.27	 0.61	 2.15
+Mixer 2
+Code#	Flow_Sm	Flow_Dy	Flow_Tm	Flow_Eu	P_Sm	P_Dy	P_Tm	P_Eu
+1	0.00	0.00	0.00	1.00	0.29	 0.29	 0.29	14.29
+2	0.00	0.00	0.28	0.72	0.29	 0.29	 4.76	10.34
+3	0.00	0.00	0.76	0.24	0.29	 0.29	12.30	 3.70
+4	0.00	0.11	0.00	0.89	0.29	 1.96	 0.29	12.70
+5	0.00	0.11	0.28	0.61	0.29	1.96	4.76	8.76
+6	0.00	0.11	0.76	0.13	0.29	 1.96	12.30	 2.12
+7	0.00	0.32	0.00	0.68	0.29	5.04	0.29	9.77
+8	0.00	0.32	0.28	0.40	0.29	5.04	4.76	5.83
+9	0.00	0.71	0.00	0.29	0.29	10.74	 0.29	 4.35
+10	0.00	0.71	0.28	0.01	0.29	10.74	 4.76	 0.41
+11	0.14	0.00	0.00	0.86	2.33	 0.29	 0.29	12.38
+12	0.14	0.00	0.28	0.58	2.33	0.29	4.76	8.44
+13	0.14	0.00	0.76	0.11	2.33	 0.29	12.30	 1.79
+14	0.14	0.11	0.00	0.75	2.33	 1.96	 0.29	10.79
+15	0.14	0.11	0.28	0.47	2.33	1.96	4.76	6.85
+16	0.14	0.32	0.00	0.54	2.33	5.04	0.29	7.86
+17	0.14	0.32	0.28	0.26	2.33	5.04	4.76	3.92
+18	0.14	0.71	0.00	0.15	2.33	10.74	 0.29	 2.45
+19	0.37	0.00	0.00	0.63	5.84	0.29	0.29	9.09
+20	0.37	0.00	0.28	0.35	5.84	0.29	4.76	5.15
+21	0.37	0.11	0.00	0.52	5.84	1.96	0.29	7.50
+22	0.37	0.11	0.28	0.23	5.84	1.96	4.76	3.56
+23	0.37	0.32	0.00	0.31	5.84	5.04	0.29	4.57
+24	0.37	0.32	0.28	0.02	5.84	5.04	4.76	0.63
+25	0.78	0.00	0.00	0.22	11.91	 0.29	 0.29	 3.41
+26	0.78	0.11	0.00	0.11	11.91	 1.96	 0.29	 1.82
+16-Jul-2014 15:54:10 Setting valves: 8 to 1
+16-Jul-2014 15:54:10 Setting valves: 9 to 1
+16-Jul-2014 15:54:10 Setting valves: 10 to 1
+16-Jul-2014 15:54:10 Setting valves: 11 to 1
+16-Jul-2014 15:54:10 Setting valves: 12 to 1
+16-Jul-2014 15:54:10 Setting valves: 13 to 1
+16-Jul-2014 15:54:10 Setting valves: 15 to 1
+16-Jul-2014 15:54:10 Setting valves: 16 to 1
+16-Jul-2014 15:54:10 Setting valves: 17 to 1
+16-Jul-2014 15:54:10 Setting valves: 18 to 1
+16-Jul-2014 15:54:10 Setting valves: 19 to 1
+16-Jul-2014 15:54:10 Setting valves: 20 to 1
+16-Jul-2014 15:54:10 Setting valves: 22 to 1
+16-Jul-2014 15:54:10 Setting valves: 23 to 1
+16-Jul-2014 15:54:10 Setting valves: 24 to 1
+16-Jul-2014 15:54:10 Setting valves: 25 to 1
+16-Jul-2014 15:54:10 Setting valves: 26 to 1
+16-Jul-2014 15:54:10 Setting valves: 27 to 1
+16-Jul-2014 15:54:10 Setting valves: 28 to 1
+16-Jul-2014 15:54:10 Setting valves: 29 to 1
+16-Jul-2014 15:54:10 Setting valves: 30 to 1
+16-Jul-2014 15:54:10 Setting valves: 31 to 1
+16-Jul-2014 15:54:10 Setting valves: 32 to 1
+16-Jul-2014 15:54:10 Setting valves: 33 to 1
+16-Jul-2014 15:54:11 Setting valves: 34 to 1
+16-Jul-2014 15:54:11 Setting valves: 34 to 0
+16-Jul-2014 15:54:11 Setting valves: 9 to 0
+16-Jul-2014 15:54:11 Setting valves: 12  18 to 0  0
+16-Jul-2014 15:54:11 Setting valves: 24 to 0
+16-Jul-2014 15:54:11 Setting valves: 31 to 0
+16-Jul-2014 15:54:18 Setting valves: 24 to 1
+16-Jul-2014 15:54:19 Setting valves: 19 to 0
+16-Jul-2014 15:56:05 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 15:56:06 Setting valves: 12  18 to 1  1
+16-Jul-2014 15:56:06 Setting valves: 16 to 0
+16-Jul-2014 15:56:06 Setting valves: 13 to 0
+16-Jul-2014 15:56:22 Setting valves: 11 to 0
+% Making Code # 1 = [0.00  0.00  0.00  1.00]
+16-Jul-2014 15:59:14 Setting valves: 11 to 1
+16-Jul-2014 15:59:14 Setting valves: 11 to 1
+16-Jul-2014 15:59:15 Setting valves: 13 to 1
+16-Jul-2014 15:59:15 Setting valves: 12  18 to 0  0
+16-Jul-2014 15:59:15 Setting valves: 24 to 0
+16-Jul-2014 15:59:16 Setting valves: 31 to 0
+16-Jul-2014 15:59:22 Setting valves: 24 to 1
+16-Jul-2014 15:59:23 Setting valves: 23 to 0
+16-Jul-2014 15:59:23 Setting valves: 19 to 0
+16-Jul-2014 16:01:09 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:01:10 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:01:10 Setting valves: 16 to 0
+16-Jul-2014 16:01:10 Setting valves: 13 to 0
+16-Jul-2014 16:01:26 Setting valves: 11 to 0
+% Making Code # 2 = [0.00  0.00  0.28  0.72]
+16-Jul-2014 16:04:18 Setting valves: 11 to 1
+16-Jul-2014 16:04:18 Setting valves: 11 to 1
+16-Jul-2014 16:04:18 Setting valves: 13 to 1
+16-Jul-2014 16:04:19 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:04:19 Setting valves: 24 to 0
+16-Jul-2014 16:04:19 Setting valves: 31 to 0
+16-Jul-2014 16:04:26 Setting valves: 24 to 1
+16-Jul-2014 16:04:27 Setting valves: 23 to 0
+16-Jul-2014 16:04:27 Setting valves: 19 to 0
+16-Jul-2014 16:06:13 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:06:14 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:06:14 Setting valves: 16 to 0
+16-Jul-2014 16:06:14 Setting valves: 13 to 0
+16-Jul-2014 16:06:30 Setting valves: 11 to 0
+% Making Code # 3 = [0.00  0.00  0.76  0.24]
+16-Jul-2014 16:09:22 Setting valves: 11 to 1
+16-Jul-2014 16:09:22 Setting valves: 11 to 1
+16-Jul-2014 16:09:22 Setting valves: 13 to 1
+16-Jul-2014 16:09:23 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:09:23 Setting valves: 24 to 0
+16-Jul-2014 16:09:23 Setting valves: 31 to 0
+16-Jul-2014 16:09:30 Setting valves: 24 to 1
+16-Jul-2014 16:09:31 Setting valves: 22 to 0
+16-Jul-2014 16:09:31 Setting valves: 19 to 0
+16-Jul-2014 16:11:17 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:11:18 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:11:18 Setting valves: 16 to 0
+16-Jul-2014 16:11:18 Setting valves: 13 to 0
+16-Jul-2014 16:11:34 Setting valves: 11 to 0
+% Making Code # 4 = [0.00  0.11  0.00  0.89]
+16-Jul-2014 16:14:26 Setting valves: 11 to 1
+16-Jul-2014 16:14:26 Setting valves: 11 to 1
+16-Jul-2014 16:14:27 Setting valves: 13 to 1
+16-Jul-2014 16:14:27 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:14:27 Setting valves: 24 to 0
+16-Jul-2014 16:14:28 Setting valves: 31 to 0
+16-Jul-2014 16:14:34 Setting valves: 24 to 1
+16-Jul-2014 16:14:35 Setting valves: 22 to 0
+16-Jul-2014 16:14:35 Setting valves: 23 to 0
+16-Jul-2014 16:14:35 Setting valves: 19 to 0
+16-Jul-2014 16:16:21 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:16:22 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:16:22 Setting valves: 16 to 0
+16-Jul-2014 16:16:22 Setting valves: 13 to 0
+16-Jul-2014 16:16:38 Setting valves: 11 to 0
+% Making Code # 5 = [0.00  0.11  0.28  0.61]
+16-Jul-2014 16:19:30 Setting valves: 11 to 1
+16-Jul-2014 16:19:30 Setting valves: 11 to 1
+16-Jul-2014 16:19:31 Setting valves: 13 to 1
+16-Jul-2014 16:19:31 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:19:31 Setting valves: 24 to 0
+16-Jul-2014 16:19:32 Setting valves: 31 to 0
+16-Jul-2014 16:19:38 Setting valves: 24 to 1
+16-Jul-2014 16:19:39 Setting valves: 22 to 0
+16-Jul-2014 16:19:39 Setting valves: 23 to 0
+16-Jul-2014 16:19:39 Setting valves: 19 to 0
+16-Jul-2014 16:21:25 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:21:26 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:21:26 Setting valves: 16 to 0
+16-Jul-2014 16:21:26 Setting valves: 13 to 0
+16-Jul-2014 16:21:42 Setting valves: 11 to 0
+% Making Code # 6 = [0.00  0.11  0.76  0.13]
+16-Jul-2014 16:24:34 Setting valves: 11 to 1
+16-Jul-2014 16:24:34 Setting valves: 11 to 1
+16-Jul-2014 16:24:34 Setting valves: 13 to 1
+16-Jul-2014 16:24:35 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:24:35 Setting valves: 24 to 0
+16-Jul-2014 16:24:35 Setting valves: 31 to 0
+16-Jul-2014 16:24:42 Setting valves: 24 to 1
+16-Jul-2014 16:24:43 Setting valves: 22 to 0
+16-Jul-2014 16:24:43 Setting valves: 19 to 0
+16-Jul-2014 16:26:29 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:26:30 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:26:30 Setting valves: 16 to 0
+16-Jul-2014 16:26:30 Setting valves: 13 to 0
+16-Jul-2014 16:26:46 Setting valves: 11 to 0
+% Making Code # 7 = [0.00  0.32  0.00  0.68]
+16-Jul-2014 16:29:38 Setting valves: 11 to 1
+16-Jul-2014 16:29:38 Setting valves: 11 to 1
+16-Jul-2014 16:29:38 Setting valves: 13 to 1
+16-Jul-2014 16:29:39 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:29:39 Setting valves: 24 to 0
+16-Jul-2014 16:29:39 Setting valves: 31 to 0
+16-Jul-2014 16:29:46 Setting valves: 24 to 1
+16-Jul-2014 16:29:47 Setting valves: 22 to 0
+16-Jul-2014 16:29:47 Setting valves: 23 to 0
+16-Jul-2014 16:29:47 Setting valves: 19 to 0
+16-Jul-2014 16:31:33 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:31:34 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:31:34 Setting valves: 16 to 0
+16-Jul-2014 16:31:34 Setting valves: 13 to 0
+16-Jul-2014 16:31:50 Setting valves: 11 to 0
+% Making Code # 8 = [0.00  0.32  0.28  0.40]
+16-Jul-2014 16:34:42 Setting valves: 11 to 1
+16-Jul-2014 16:34:42 Setting valves: 11 to 1
+16-Jul-2014 16:34:43 Setting valves: 13 to 1
+16-Jul-2014 16:34:43 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:34:43 Setting valves: 24 to 0
+16-Jul-2014 16:34:44 Setting valves: 31 to 0
+16-Jul-2014 16:34:50 Setting valves: 24 to 1
+16-Jul-2014 16:34:51 Setting valves: 22 to 0
+16-Jul-2014 16:34:51 Setting valves: 19 to 0
+16-Jul-2014 16:36:37 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:36:38 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:36:38 Setting valves: 16 to 0
+16-Jul-2014 16:36:38 Setting valves: 13 to 0
+16-Jul-2014 16:36:54 Setting valves: 11 to 0
+% Making Code # 9 = [0.00  0.71  0.00  0.29]
+16-Jul-2014 16:39:46 Setting valves: 11 to 1
+16-Jul-2014 16:39:46 Setting valves: 11 to 1
+16-Jul-2014 16:39:46 Setting valves: 13 to 1
+16-Jul-2014 16:39:47 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:39:47 Setting valves: 24 to 0
+16-Jul-2014 16:39:47 Setting valves: 31 to 0
+16-Jul-2014 16:39:54 Setting valves: 24 to 1
+16-Jul-2014 16:39:55 Setting valves: 22 to 0
+16-Jul-2014 16:39:55 Setting valves: 23 to 0
+16-Jul-2014 16:39:55 Setting valves: 19 to 0
+16-Jul-2014 16:41:41 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:41:42 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:41:42 Setting valves: 16 to 0
+16-Jul-2014 16:41:42 Setting valves: 13 to 0
+16-Jul-2014 16:41:58 Setting valves: 11 to 0
+% Making Code # 10 = [0.00  0.71  0.28  0.01]
+16-Jul-2014 16:44:50 Setting valves: 11 to 1
+16-Jul-2014 16:44:50 Setting valves: 11 to 1
+16-Jul-2014 16:44:50 Setting valves: 13 to 1
+16-Jul-2014 16:44:51 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:44:51 Setting valves: 24 to 0
+16-Jul-2014 16:44:51 Setting valves: 31 to 0
+16-Jul-2014 16:44:58 Setting valves: 24 to 1
+16-Jul-2014 16:44:59 Setting valves: 20 to 0
+16-Jul-2014 16:44:59 Setting valves: 19 to 0
+16-Jul-2014 16:46:45 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:46:46 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:46:46 Setting valves: 16 to 0
+16-Jul-2014 16:46:46 Setting valves: 13 to 0
+16-Jul-2014 16:47:02 Setting valves: 11 to 0
+% Making Code # 11 = [0.14  0.00  0.00  0.86]
+16-Jul-2014 16:49:54 Setting valves: 11 to 1
+16-Jul-2014 16:49:54 Setting valves: 11 to 1
+16-Jul-2014 16:49:55 Setting valves: 13 to 1
+16-Jul-2014 16:49:55 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:49:55 Setting valves: 24 to 0
+16-Jul-2014 16:49:56 Setting valves: 31 to 0
+16-Jul-2014 16:50:02 Setting valves: 24 to 1
+16-Jul-2014 16:50:03 Setting valves: 20 to 0
+16-Jul-2014 16:50:03 Setting valves: 23 to 0
+16-Jul-2014 16:50:03 Setting valves: 19 to 0
+16-Jul-2014 16:50:34 Setting valves: 10 to 0
+16-Jul-2014 16:50:36 Setting valves: 10 to 1
+16-Jul-2014 16:50:36 Setting valves: 10 to 0
+16-Jul-2014 16:50:48 Setting valves: 11 to 0
+16-Jul-2014 16:50:48 Setting valves: 11 to 1
+16-Jul-2014 16:50:49 Setting valves: 10 to 1
+16-Jul-2014 16:50:49 Setting valves: 10 to 0
+16-Jul-2014 16:50:49 Setting valves: 10 to 1
+16-Jul-2014 16:50:49 Setting valves: 10 to 0
+16-Jul-2014 16:50:50 Setting valves: 10 to 1
+16-Jul-2014 16:50:50 Setting valves: 10 to 0
+16-Jul-2014 16:50:50 Setting valves: 10 to 1
+16-Jul-2014 16:50:50Error: expected to set values 1 read back 0
+16-Jul-2014 16:50:50 Setting valves: 10 to 0
+16-Jul-2014 16:50:50 Setting valves: 10 to 1
+16-Jul-2014 16:50:51 Setting valves: 10 to 0
+16-Jul-2014 16:50:52 Setting valves: 9 to 1
+16-Jul-2014 16:50:57 Setting valves: 10 to 1
+16-Jul-2014 16:50:57 Setting valves: 10 to 0
+16-Jul-2014 16:50:59 Setting valves: 10 to 1
+16-Jul-2014 16:50:59 Setting valves: 10 to 0
+16-Jul-2014 16:51:06 Setting valves: 10 to 1
+16-Jul-2014 16:51:06 Setting valves: 10 to 0
+16-Jul-2014 16:51:07 Setting valves: 10 to 1
+16-Jul-2014 16:51:49 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:51:50 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:51:50 Setting valves: 16 to 0
+16-Jul-2014 16:51:51 Setting valves: 13 to 0
+16-Jul-2014 16:51:54 Setting valves: 9 to 0
+16-Jul-2014 16:52:06 Setting valves: 11 to 0
+% Making Code # 12 = [0.14  0.00  0.28  0.58]
+16-Jul-2014 16:53:52 Setting valves: 11 to 1
+16-Jul-2014 16:54:09 Setting valves: 11 to 0
+16-Jul-2014 16:56:18 Setting valves: 11 to 1
+16-Jul-2014 16:56:19 Setting valves: 11 to 1
+16-Jul-2014 16:56:19 Setting valves: 13 to 1
+16-Jul-2014 16:56:19 Setting valves: 12  18 to 0  0
+16-Jul-2014 16:56:20 Setting valves: 24 to 0
+16-Jul-2014 16:56:20 Setting valves: 31 to 0
+16-Jul-2014 16:56:28 Setting valves: 24 to 1
+16-Jul-2014 16:56:29 Setting valves: 20 to 0
+16-Jul-2014 16:56:30 Setting valves: 23 to 0
+16-Jul-2014 16:56:30 Setting valves: 19 to 0
+16-Jul-2014 16:58:15 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 16:58:16 Setting valves: 12  18 to 1  1
+16-Jul-2014 16:58:16 Setting valves: 16 to 0
+16-Jul-2014 16:58:16 Setting valves: 13 to 0
+16-Jul-2014 16:58:33 Setting valves: 11 to 0
+% Making Code # 13 = [0.14  0.00  0.76  0.11]
+16-Jul-2014 17:01:24 Setting valves: 11 to 1
+16-Jul-2014 17:01:24 Setting valves: 11 to 1
+16-Jul-2014 17:01:25 Setting valves: 13 to 1
+16-Jul-2014 17:01:26 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:01:26 Setting valves: 24 to 0
+16-Jul-2014 17:01:26 Setting valves: 31 to 0
+16-Jul-2014 17:01:33 Setting valves: 24 to 1
+16-Jul-2014 17:01:34 Setting valves: 20 to 0
+16-Jul-2014 17:01:34 Setting valves: 22 to 0
+16-Jul-2014 17:01:34 Setting valves: 19 to 0
+16-Jul-2014 17:03:20 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:03:20 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:03:20 Setting valves: 16 to 0
+16-Jul-2014 17:03:21 Setting valves: 13 to 0
+16-Jul-2014 17:03:37 Setting valves: 11 to 0
+16-Jul-2014 17:03:37Error: expected to set values 0 read back 1
+% Making Code # 14 = [0.14  0.11  0.00  0.75]
+16-Jul-2014 17:06:28 Setting valves: 11 to 1
+16-Jul-2014 17:06:28 Setting valves: 11 to 1
+16-Jul-2014 17:06:29 Setting valves: 13 to 1
+16-Jul-2014 17:06:30 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:06:30 Setting valves: 24 to 0
+16-Jul-2014 17:06:30 Setting valves: 31 to 0
+16-Jul-2014 17:06:37 Setting valves: 24 to 1
+16-Jul-2014 17:06:38 Setting valves: 20 to 0
+16-Jul-2014 17:06:38 Setting valves: 22 to 0
+16-Jul-2014 17:06:38 Setting valves: 23 to 0
+16-Jul-2014 17:06:38 Setting valves: 19 to 0
+16-Jul-2014 17:08:24 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:08:24 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:08:24 Setting valves: 16 to 0
+16-Jul-2014 17:08:25 Setting valves: 13 to 0
+16-Jul-2014 17:08:25Error: expected to set values 0 read back 1
+16-Jul-2014 17:08:41 Setting valves: 11 to 0
+% Making Code # 15 = [0.14  0.11  0.28  0.47]
+16-Jul-2014 17:11:32 Setting valves: 11 to 1
+16-Jul-2014 17:11:33 Setting valves: 11 to 1
+16-Jul-2014 17:11:34 Setting valves: 13 to 1
+16-Jul-2014 17:11:34 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:11:34 Setting valves: 24 to 0
+16-Jul-2014 17:11:35 Setting valves: 31 to 0
+16-Jul-2014 17:11:41 Setting valves: 24 to 1
+16-Jul-2014 17:11:42 Setting valves: 20 to 0
+16-Jul-2014 17:11:42 Setting valves: 22 to 0
+16-Jul-2014 17:11:42 Setting valves: 19 to 0
+16-Jul-2014 17:13:28 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:13:28 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:13:28 Setting valves: 16 to 0
+16-Jul-2014 17:13:29 Setting valves: 13 to 0
+16-Jul-2014 17:13:45 Setting valves: 11 to 0
+% Making Code # 16 = [0.14  0.32  0.00  0.54]
+16-Jul-2014 17:16:36 Setting valves: 11 to 1
+16-Jul-2014 17:16:36 Setting valves: 11 to 1
+16-Jul-2014 17:16:37 Setting valves: 13 to 1
+16-Jul-2014 17:16:38 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:16:38 Setting valves: 24 to 0
+16-Jul-2014 17:16:38 Setting valves: 31 to 0
+16-Jul-2014 17:16:45 Setting valves: 24 to 1
+16-Jul-2014 17:16:46 Setting valves: 20 to 0
+16-Jul-2014 17:16:46 Setting valves: 22 to 0
+16-Jul-2014 17:16:46 Setting valves: 23 to 0
+16-Jul-2014 17:16:46 Setting valves: 19 to 0
+16-Jul-2014 17:18:32 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:18:32 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:18:32 Setting valves: 16 to 0
+16-Jul-2014 17:18:33 Setting valves: 13 to 0
+16-Jul-2014 17:18:49 Setting valves: 11 to 0
+% Making Code # 17 = [0.14  0.32  0.28  0.26]
+16-Jul-2014 17:21:40 Setting valves: 11 to 1
+16-Jul-2014 17:21:40 Setting valves: 11 to 1
+16-Jul-2014 17:21:41 Setting valves: 13 to 1
+16-Jul-2014 17:21:42 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:21:42 Setting valves: 24 to 0
+16-Jul-2014 17:21:42 Setting valves: 31 to 0
+16-Jul-2014 17:21:49 Setting valves: 24 to 1
+16-Jul-2014 17:21:50 Setting valves: 20 to 0
+16-Jul-2014 17:21:50 Setting valves: 22 to 0
+16-Jul-2014 17:21:50 Setting valves: 19 to 0
+16-Jul-2014 17:23:36 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:23:36 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:23:36 Setting valves: 16 to 0
+16-Jul-2014 17:23:37 Setting valves: 13 to 0
+16-Jul-2014 17:23:53 Setting valves: 11 to 0
+% Making Code # 18 = [0.14  0.71  0.00  0.15]
+16-Jul-2014 17:26:44 Setting valves: 11 to 1
+16-Jul-2014 17:26:44 Setting valves: 11 to 1
+16-Jul-2014 17:26:45 Setting valves: 13 to 1
+16-Jul-2014 17:26:46 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:26:46 Setting valves: 24 to 0
+16-Jul-2014 17:26:46 Setting valves: 31 to 0
+16-Jul-2014 17:26:53 Setting valves: 24 to 1
+16-Jul-2014 17:26:54 Setting valves: 20 to 0
+16-Jul-2014 17:26:54 Setting valves: 19 to 0
+16-Jul-2014 17:28:40 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:28:40 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:28:40 Setting valves: 16 to 0
+16-Jul-2014 17:28:42 Setting valves: 13 to 0
+16-Jul-2014 17:28:57 Setting valves: 11 to 0
+% Making Code # 19 = [0.37  0.00  0.00  0.63]
+16-Jul-2014 17:31:48 Setting valves: 11 to 1
+16-Jul-2014 17:31:48 Setting valves: 11 to 1
+16-Jul-2014 17:31:49 Setting valves: 13 to 1
+16-Jul-2014 17:31:50 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:31:50 Setting valves: 24 to 0
+16-Jul-2014 17:31:50 Setting valves: 31 to 0
+16-Jul-2014 17:31:57 Setting valves: 24 to 1
+16-Jul-2014 17:31:58 Setting valves: 20 to 0
+16-Jul-2014 17:31:58 Setting valves: 23 to 0
+16-Jul-2014 17:31:58 Setting valves: 19 to 0
+16-Jul-2014 17:33:44 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:33:44 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:33:44 Setting valves: 16 to 0
+16-Jul-2014 17:33:45 Setting valves: 13 to 0
+16-Jul-2014 17:34:01 Setting valves: 11 to 0
+% Making Code # 20 = [0.37  0.00  0.28  0.35]
+16-Jul-2014 17:36:52 Setting valves: 11 to 1
+16-Jul-2014 17:36:52 Setting valves: 11 to 1
+16-Jul-2014 17:36:53 Setting valves: 13 to 1
+16-Jul-2014 17:36:54 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:36:54 Setting valves: 24 to 0
+16-Jul-2014 17:36:54 Setting valves: 31 to 0
+16-Jul-2014 17:37:01 Setting valves: 24 to 1
+16-Jul-2014 17:37:02 Setting valves: 20 to 0
+16-Jul-2014 17:37:02 Setting valves: 22 to 0
+16-Jul-2014 17:37:02 Setting valves: 19 to 0
+16-Jul-2014 17:38:48 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:38:48 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:38:48 Setting valves: 16 to 0
+16-Jul-2014 17:38:49 Setting valves: 13 to 0
+16-Jul-2014 17:39:05 Setting valves: 11 to 0
+% Making Code # 21 = [0.37  0.11  0.00  0.52]
+16-Jul-2014 17:41:56 Setting valves: 11 to 1
+16-Jul-2014 17:41:56 Setting valves: 11 to 1
+16-Jul-2014 17:41:57 Setting valves: 13 to 1
+16-Jul-2014 17:41:58 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:41:58 Setting valves: 24 to 0
+16-Jul-2014 17:41:58 Setting valves: 31 to 0
+16-Jul-2014 17:42:05 Setting valves: 24 to 1
+16-Jul-2014 17:42:06 Setting valves: 20 to 0
+16-Jul-2014 17:42:06 Setting valves: 22 to 0
+16-Jul-2014 17:42:06 Setting valves: 23 to 0
+16-Jul-2014 17:42:06 Setting valves: 19 to 0
+16-Jul-2014 17:43:52 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:43:52 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:43:52 Setting valves: 16 to 0
+16-Jul-2014 17:43:53 Setting valves: 13 to 0
+16-Jul-2014 17:44:09 Setting valves: 11 to 0
+% Making Code # 22 = [0.37  0.11  0.28  0.23]
+16-Jul-2014 17:47:00 Setting valves: 11 to 1
+16-Jul-2014 17:47:00 Setting valves: 11 to 1
+16-Jul-2014 17:47:01 Setting valves: 13 to 1
+16-Jul-2014 17:47:02 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:47:02 Setting valves: 24 to 0
+16-Jul-2014 17:47:02 Setting valves: 31 to 0
+16-Jul-2014 17:47:09 Setting valves: 24 to 1
+16-Jul-2014 17:47:10 Setting valves: 20 to 0
+16-Jul-2014 17:47:10 Setting valves: 22 to 0
+16-Jul-2014 17:47:10 Setting valves: 19 to 0
+16-Jul-2014 17:48:56 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:48:56 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:48:56 Setting valves: 16 to 0
+16-Jul-2014 17:48:57 Setting valves: 13 to 0
+16-Jul-2014 17:49:13 Setting valves: 11 to 0
+% Making Code # 23 = [0.37  0.32  0.00  0.31]
+16-Jul-2014 17:52:04 Setting valves: 11 to 1
+16-Jul-2014 17:52:04 Setting valves: 11 to 1
+16-Jul-2014 17:52:05 Setting valves: 13 to 1
+16-Jul-2014 17:52:06 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:52:06 Setting valves: 24 to 0
+16-Jul-2014 17:52:06 Setting valves: 31 to 0
+16-Jul-2014 17:52:13 Setting valves: 24 to 1
+16-Jul-2014 17:52:14 Setting valves: 20 to 0
+16-Jul-2014 17:52:14 Setting valves: 22 to 0
+16-Jul-2014 17:52:14 Setting valves: 23 to 0
+16-Jul-2014 17:52:14 Setting valves: 19 to 0
+16-Jul-2014 17:54:00 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:54:00 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:54:00 Setting valves: 16 to 0
+16-Jul-2014 17:54:01 Setting valves: 13 to 0
+16-Jul-2014 17:54:17 Setting valves: 11 to 0
+% Making Code # 24 = [0.37  0.32  0.28  0.02]
+16-Jul-2014 17:57:08 Setting valves: 11 to 1
+16-Jul-2014 17:57:08 Setting valves: 11 to 1
+16-Jul-2014 17:57:09 Setting valves: 13 to 1
+16-Jul-2014 17:57:10 Setting valves: 12  18 to 0  0
+16-Jul-2014 17:57:10 Setting valves: 24 to 0
+16-Jul-2014 17:57:10 Setting valves: 31 to 0
+16-Jul-2014 17:57:17 Setting valves: 24 to 1
+16-Jul-2014 17:57:18 Setting valves: 20 to 0
+16-Jul-2014 17:57:18 Setting valves: 19 to 0
+16-Jul-2014 17:59:04 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 17:59:04 Setting valves: 12  18 to 1  1
+16-Jul-2014 17:59:04 Setting valves: 16 to 0
+16-Jul-2014 17:59:05 Setting valves: 13 to 0
+16-Jul-2014 17:59:21 Setting valves: 11 to 0
+% Making Code # 25 = [0.78  0.00  0.00  0.22]
+16-Jul-2014 18:02:12 Setting valves: 11 to 1
+16-Jul-2014 18:02:12 Setting valves: 11 to 1
+16-Jul-2014 18:02:13 Setting valves: 13 to 1
+16-Jul-2014 18:02:14 Setting valves: 12  18 to 0  0
+16-Jul-2014 18:02:14 Setting valves: 24 to 0
+16-Jul-2014 18:02:14 Setting valves: 31 to 0
+16-Jul-2014 18:02:21 Setting valves: 24 to 1
+16-Jul-2014 18:02:22 Setting valves: 20 to 0
+16-Jul-2014 18:02:22 Setting valves: 22 to 0
+16-Jul-2014 18:02:22 Setting valves: 19 to 0
+16-Jul-2014 18:04:08 Setting valves: 20  22  23  19 to 1  1  1  1
+16-Jul-2014 18:04:08 Setting valves: 12  18 to 1  1
+16-Jul-2014 18:04:08 Setting valves: 16 to 0
+16-Jul-2014 18:04:09 Setting valves: 13 to 0
+16-Jul-2014 18:04:25 Setting valves: 11 to 0
+% Making Code # 26 = [0.78  0.11  0.00  0.11]
+16-Jul-2014 18:07:16 Setting valves: 11 to 1
+16-Jul-2014 18:07:16 Setting valves: 11 to 1
+16-Jul-2014 18:07:17 Setting valves: 13 to 1
+16-Jul-2014 18:07:18 Setting valves: 10 to 0
+16-Jul-2014 18:13:38 Setting valves: 16 to 1
+16-Jul-2014 18:13:42 Setting valves: 24 to 0
+16-Jul-2014 18:13:43 Setting valves: 18 to 0
+16-Jul-2014 18:13:44 Setting valves: 12 to 0
+16-Jul-2014 18:13:47 Setting valves: 24 to 1
+16-Jul-2014 18:13:48 Setting valves: 18 to 1
+16-Jul-2014 18:13:49 Setting valves: 12 to 1
+16-Jul-2014 18:13:50 Setting valves: 31 to 1
+16-Jul-2014 18:15:18 Setting valves: 10 to 1
+16-Jul-2014 18:15:18 Setting valves: 8 to 1
+16-Jul-2014 18:15:18 Setting valves: 9 to 1
+16-Jul-2014 18:15:18 Setting valves: 10 to 1
+16-Jul-2014 18:15:18 Setting valves: 11 to 1
+16-Jul-2014 18:15:19 Setting valves: 12 to 1
+16-Jul-2014 18:15:19 Setting valves: 13 to 1
+16-Jul-2014 18:15:19 Setting valves: 15 to 1
+16-Jul-2014 18:15:19 Setting valves: 16 to 1
+16-Jul-2014 18:15:19 Setting valves: 17 to 1
+16-Jul-2014 18:15:19 Setting valves: 18 to 1
+16-Jul-2014 18:15:19 Setting valves: 19 to 1
+16-Jul-2014 18:15:19 Setting valves: 20 to 1
+16-Jul-2014 18:15:19 Setting valves: 22 to 1
+16-Jul-2014 18:15:19 Setting valves: 23 to 1
+16-Jul-2014 18:15:19 Setting valves: 24 to 1
+16-Jul-2014 18:15:19 Setting valves: 25 to 1
+16-Jul-2014 18:15:19 Setting valves: 26 to 1
+16-Jul-2014 18:15:19 Setting valves: 27 to 1
+16-Jul-2014 18:15:19 Setting valves: 28 to 1
+16-Jul-2014 18:15:19 Setting valves: 29 to 1
+16-Jul-2014 18:15:19 Setting valves: 30 to 1
+16-Jul-2014 18:15:19 Setting valves: 31 to 1
+16-Jul-2014 18:15:19 Setting valves: 32 to 1
+16-Jul-2014 18:15:19 Setting valves: 33 to 1
+16-Jul-2014 18:15:19 Setting valves: 34 to 1
+% DONE!

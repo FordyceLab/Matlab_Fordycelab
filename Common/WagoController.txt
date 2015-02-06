@@ -1,0 +1,10 @@
+% Configuration file for Wago controller
+% It specifies the IP address and the manifold polarities.
+% The polarity is separated from the IP address by a TAB
+% The polarity of each valve is specified by one letter:
+% o = Normally open, c = Normally closed
+% i.e.
+% 128.3.129.237 <TAB> ccccoo
+
+
+192.168.1.3	oooooooooooooooooooooooooooooooooooooooooooooooooooooooo
