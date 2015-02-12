@@ -1,0 +1,5 @@
+#############
+## Site-specific files to ignore
+#############
+
+WagoController.txt
