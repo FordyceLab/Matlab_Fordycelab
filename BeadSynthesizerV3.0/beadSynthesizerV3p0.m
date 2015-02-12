@@ -32,7 +32,9 @@ end
 myFolder = fileparts(which([myTag '.m']));
 
 % Space-less name for error logging
-errorLogFileName = fullfile(myFolder, [myTag '_ERRORS.txt']);
+pathParts = strsplit(myFolder, filesep);
+%we are in INSTALL_DIR/Common; want to write to INSTALL_DIR/Logs
+errorLogFileName = fullfile(pathParts{1:end-1}, 'Logs' ,[myTag,'_ERRORS.txt']);
 % Initialize error logging
 errorLog = eventLog(['Error log file for ' myName], errorLogFileName, true);
 
