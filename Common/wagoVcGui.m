@@ -93,9 +93,10 @@ vc = [];
 ipAddress = [];
 polarity = [];
 numValves = [];
+wLog = [];
 
 % Where am I?
-myFolder = fileparts(which([myTag '.m']));
+myFolder = fileparts(which([mfilename '.m']));
 
 % Display the GUI
 % Open GUI figure
