@@ -1,0 +1,21 @@
+%Labels for mfcs interface when running the chip containing this file
+%Write the number of the channel as label in case nothing special is needed
+%as shown below
+%
+%1	Label1
+%2	Label2
+%3	Label3
+%4	4
+%5	5
+%6	6
+%7	7
+%8	8
+
+1	CeTb 
+2	Push
+3	Oil
+4	Tm
+5	Eu
+6	Sm
+7	Dy
+8	SDS
