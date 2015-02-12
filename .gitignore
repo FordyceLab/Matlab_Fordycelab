@@ -29,3 +29,5 @@ hs_err*
 CoreLog*
 PressureLog*
 SynthesisLog*
+*_ERRORS.txt
+Common/WagoController.txt
