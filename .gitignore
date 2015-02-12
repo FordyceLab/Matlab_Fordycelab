@@ -35,3 +35,4 @@ Logs/*
 # Configuration files
 ################
 Common/WagoController.txt
+ValveNumbers.txt
