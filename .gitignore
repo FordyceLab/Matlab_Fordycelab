@@ -30,7 +30,7 @@ CoreLog*
 PressureLog*
 SynthesisLog*
 *_ERRORS.txt
-#Logs/*
+Logs/*
 ################
 # Configuration files
 ################
