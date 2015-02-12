@@ -30,4 +30,8 @@ CoreLog*
 PressureLog*
 SynthesisLog*
 *_ERRORS.txt
+#Logs/*
+################
+# Configuration files
+################
 Common/WagoController.txt

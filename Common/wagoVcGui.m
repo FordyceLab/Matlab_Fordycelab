@@ -93,10 +93,15 @@ vc = [];
 ipAddress = [];
 polarity = [];
 numValves = [];
-wLog = [];
 
 % Where am I?
 myFolder = fileparts(which([mfilename '.m']));
+
+% Create logfile in case of errors
+pathParts = strsplit(myFolder, filesep);
+%we are in INSTALL_DIR/Common; want to write to INSTALL_DIR/Logs
+fName = fullfile(pathParts{1:end-1}, 'Logs' ,[date,'_wagoLog.txt']);
+wLog = fopen(fName,'a+');
 
 % Display the GUI
 % Open GUI figure
@@ -301,10 +306,6 @@ vcObj.reset = @objectReset;
         numValves = length(polarity);
         % Open valve controllers
         vc = wagoNModbus(ipAddress, polarity, virtual);
-        % Create logfile in case of errors
-        fName = fullfile('D:\Secondlife-32\Matlab',[date,'_wagoLog.txt']);
-        disp('Running objectInit')
-        wLog = fopen(fName,'a+');
         % Update GUI
         set(uiH.VcIp, 'String', ipAddress);
         polStr = 99*ones(1, numValves).*polarity + 111*ones(1, numValves).*(~polarity);
