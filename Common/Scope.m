@@ -56,7 +56,7 @@ classdef Scope < handle
             Scp.studio.run('');
             uiwait(msgbox('Press when Micro-Manager finishes loading'));
             Scp.mmc = Scp.studio.getMMCoreInstance;
-            Scp.gui = Scp.studio.getMMStudioMainFrameInstance;
+            Scp.gui = Scp.studio.getMMStudioInstance;
             %grab an image, since first image is often 0
             Scp.mmc.snapImage;
             junk = Scp.mmc.getImage;
