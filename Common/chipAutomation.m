@@ -92,6 +92,8 @@ if ~isempty(chipName)
         message('Starting chip controller');
         success = true;
         switch lower(chipName)
+            case 'dummychip'
+                chip = DummyChip(vcType, valveNumFile, virtual, true, myName);
             case 'lblccc'
                 chip = lblCCC(vcType, valveNumFile, virtual, true, myName);
             case 'cellulose1chip'
@@ -189,7 +191,7 @@ end
 if useMfcs
     try
         message('Starting MFCS controller');
-        mfcs = mfcsGui(0079, true, myName, errorLog);
+        mfcs = mfcsEZGui(0079, true, myName, errorLog);
     catch ME
         errorHandler('', ME, 'ERROR! Cannot activate the MFCS control interface! ', [], @message, true);
         useMfcs = false;
