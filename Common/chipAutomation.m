@@ -191,7 +191,7 @@ end
 if useMfcs
     try
         message('Starting MFCS controller');
-        mfcs = mfcsEZGui(0079, true, myName, errorLog);
+        mfcs = mfcsEZGui([752, 753], true, myName, errorLog);
     catch ME
         errorHandler('', ME, 'ERROR! Cannot activate the MFCS control interface! ', [], @message, true);
         useMfcs = false;
