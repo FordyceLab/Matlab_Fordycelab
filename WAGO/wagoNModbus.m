@@ -67,6 +67,7 @@ totalBytes = ceil(totalValves/8);
 totalWords = ceil(totalBytes/2);
 wordPadLength = totalWords*16 - totalValves;
 wagoMaster = [];
+tcpClient =[];
 
 currValues = zeros(1, totalValves);
 
@@ -127,9 +128,9 @@ wagoErrorDescription{23,2} = 'Unknown error'; %999
     function wagoOpen
 
         modbusObj = NET.addAssembly([fileparts(which('wagoNModbus.m')) '\Wago DLL\NModbus\Modbus.dll']);
-%         modbusObj = NET.addAssembly(['C:\Microfluidics\Matlab_ChipControl\Wago\Wago DLL\NModbus\Modbus.dll']);
-        systemObj = NET.addAssembly('System');
-
+        %Removed add of System .NET assembly because Matlab does it
+        %automatically on first call 3/6/15 KST
+        
         if isempty(wagoMaster)
             try
                 tcpClient = System.Net.Sockets.TcpClient(ipAddress, 502);
