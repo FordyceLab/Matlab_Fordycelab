@@ -126,35 +126,35 @@ chip.quit = @chipClose;
                 myXy.Dims, myXy.Calib, myXy.Xlim, myXy.Ylim] = readChipLocations(myXy.locFName);
             % Number of chambers in this chip
             numChambers = myXy.NumLocations;
-            img = imread('BeadSynthesizerv3p0.png', 'png');
-            for jj = 1:3
-                img(:, :, jj) = flipud(img(:, :, jj));
-            end %for jj
-            imgSz = size(img);
-            if isempty(myXy.Xlim) || (myXy.Xlim(1) <= myXy.Xlim(2))
-                myXy.Xlim = [0, imgSz(2)];
-            end
-            if isempty(myXy.Ylim) || (myXy.Ylim(1) <= myXy.Ylim(2))
-                myXy.Ylim = [0, imgSz(1)];
-            end
-            xData = linspace(myXy.Xlim(1), myXy.Xlim(2), 4);
-            yData = linspace(myXy.Ylim(1), myXy.Ylim(2), 4);
-            image('CData', img, 'Parent', myUiH.ChipImage, 'Clipping', 'off', ...
-                'XData', xData, 'YData', yData);
-            set(myUiH.ChipImage, 'NextPlot', 'add', 'XTick', [], 'YTick', []);
-            myUiH.ChamberPlot.MarkerSize = 5;
-            for ii = 1:myXy.NumLocations
-                x = myXy.Pos(ii, 1);
-                y = myXy.Pos(ii, 2);
-                str = 'k+';
-                myUiH.ChamberPlot.h(ii) = plot(myUiH.ChipImage, x, y, str);
-                set(myUiH.ChamberPlot.h(ii), 'MarkerSize', myUiH.ChamberPlot.MarkerSize);
-                set(myUiH.ChamberPlot.h(ii), 'MarkerFaceColor', [1 1 1]);
-            end;
-            set(myUiH.ChipImage, 'XLim', myXy.Xlim, 'YLim', myXy.Ylim);
-            % Lock the axes so that drawing is not damaged by external plotting
-            % commands
-            set(myUiH.ChipImage, 'HandleVisibility', 'off');
+%             img = imread('BeadSynthesizerv3p0.png', 'png');
+%             for jj = 1:3
+%                 img(:, :, jj) = flipud(img(:, :, jj));
+%             end %for jj
+%             imgSz = size(img);
+%             if isempty(myXy.Xlim) || (myXy.Xlim(1) <= myXy.Xlim(2))
+%                 myXy.Xlim = [0, imgSz(2)];
+%             end
+%             if isempty(myXy.Ylim) || (myXy.Ylim(1) <= myXy.Ylim(2))
+%                 myXy.Ylim = [0, imgSz(1)];
+%             end
+%             xData = linspace(myXy.Xlim(1), myXy.Xlim(2), 4);
+%             yData = linspace(myXy.Ylim(1), myXy.Ylim(2), 4);
+%             image('CData', img, 'Parent', myUiH.ChipImage, 'Clipping', 'off', ...
+%                 'XData', xData, 'YData', yData);
+%             set(myUiH.ChipImage, 'NextPlot', 'add', 'XTick', [], 'YTick', []);
+%             myUiH.ChamberPlot.MarkerSize = 5;
+%             for ii = 1:myXy.NumLocations
+%                 x = myXy.Pos(ii, 1);
+%                 y = myXy.Pos(ii, 2);
+%                 str = 'k+';
+%                  myUiH.ChamberPlot.h(ii) = plot(myUiH.ChipImage, x, y, str);
+%                 set(myUiH.ChamberPlot.h(ii), 'MarkerSize', myUiH.ChamberPlot.MarkerSize);
+%                 set(myUiH.ChamberPlot.h(ii), 'MarkerFaceColor', [1 1 1]);
+%             end;
+%             set(myUiH.ChipImage, 'XLim', myXy.Xlim, 'YLim', myXy.Ylim);
+%             % Lock the axes so that drawing is not damaged by external plotting
+%             % commands
+%             set(myUiH.ChipImage, 'HandleVisibility', 'off');
         catch ME
             thisTag = [myTag ':drawChip'];
             errorHandler(thisTag, ME, '', errorLog, @message, false);
