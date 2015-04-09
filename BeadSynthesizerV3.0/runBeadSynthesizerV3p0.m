@@ -11,4 +11,4 @@ clear all;
 % this is the one that we use for making an automated code set because it
 % automatically opens micromanager
 
-[scr, chip, scope, camera, mfcs] = chipAutomation('beadsynthesizerv3p0', 'wago', 'ValveNumbers.txt', false, false, false, 'Cameras_LBL.txt', false);
+[scr, chip, scope, camera, mfcs] = chipAutomation('beadsynthesizerv3p0', 'wago', 'ValveNumbers.txt', false, true, false, 'Cameras_LBL.txt', true);
