@@ -27,8 +27,8 @@ classdef Scope < handle
         %% properties needed to save images
         AcqData %an AcquisitionDescriptor
         site=0;
-        basePath = 'C:\Roy\Data\';
-        expPath = 'TestingScope';
+        basePath = '';
+        expPath = 'Images';
         TimeStamp=[];
         
         %% plotting related variables
@@ -42,11 +42,22 @@ classdef Scope < handle
     methods
         
         %% constructors
-        function Scp = Scope
-            
+        function Scp = Scope            
             % general stuff
             warning('off','Images:initSize:adjustingMag')
             warning('off','Images:imshow:magnificationMustBeFitForDockedFigure')
+            %set Java properties.  This is necessary to access plugins.
+            %Path to micro-manager is hardcoded, should be moved into a
+            %config file.
+            mmPath = 'C:\Program Files\Micro-Manager-1.4';
+            java.lang.System.setProperty('org.micromanager.plugin.path', fullfile(mmPath, 'mmplugins'));
+            java.lang.System.setProperty('org.micromanager.autofocus.path', fullfile(mmPath, 'autofocus'));
+            %java.lang.System.setProperty('org.micromanager.beanshell.startup.script', '/Users/mark/Desktop/Micro-Manager1.4/scripts/mm_beanshell_startup.bsh');
+            
+            temppath = mfilename('fullpath');
+            temppath = strsplit(temppath, filesep);
+            object.basePath = fullfile(temppath{1:end-2});
+            
             % Init MM
             import mmcorej.*;
             import org.micromanager.*;
