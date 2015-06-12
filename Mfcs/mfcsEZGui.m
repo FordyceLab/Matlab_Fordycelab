@@ -450,7 +450,7 @@ objectInit;
             end
             
             if psi == 1
-                pressures(ii)=68.9475.*pressures(ii);
+                pressures=68.9475.*pressures;
             end
             
             if channelsLength>0 && channelsLength<9
