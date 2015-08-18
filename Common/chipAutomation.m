@@ -1,4 +1,4 @@
-function [scr, chip, scope, camera, mfcs] = chipAutomation(chipName, vcType, valveNumFile, virtual, useScope, useCamera, camerasFile, useMfcs)
+function [scr, chip, scope, camera, mfcs, galil] = chipAutomation(chipName, vcType, valveNumFile, virtual, useScope, useCamera, camerasFile, useMfcs, useGalil)
 % Microfluidic chip automation and scripting system
 %
 % [scr, chip, scope, camera, mfcs] = chipAutomation(chipName, vcType, valveNumFile, virtual, useScope, useCamera, camerasFile, useMfcs)
@@ -161,6 +161,7 @@ end
 scope = [];
 camera = [];
 mfcs = [];
+galil = [];
 if useScope
     try
         message('Starting microscope controller');
@@ -198,6 +199,18 @@ if useMfcs
         mfcs = [];
     end
 end
+if useGalil
+    try
+        message('Starting Galil controller');
+        galil = galilController('COM4',115200);
+        galil.launchGUI();        
+    catch ME
+        errorHandler('', ME, 'ERROR! Cannot activate the Galil control interface! ', [], @message, true);
+        useGalil = false;
+        galil = [];
+    end
+end
+
 message('Ready!');
 
 
@@ -485,7 +498,7 @@ message('Ready!');
         else
             try
                 clear(scr_fname);
-                scriptRun(scr_fname, scr, chip, camera, scope, mfcs);
+                scriptRun(scr_fname, scr, chip, camera, scope, mfcs, galil);
             catch
                 beep;
                 msg = [myData.TimedScript{1} 10 13 lasterr];
@@ -509,7 +522,7 @@ message('Ready!');
         else
             try
                 clear(scr_fname);
-                scriptRun(scr_fname, scr, chip, camera, scope, mfcs);
+                scriptRun(scr_fname, scr, chip, camera, scope, mfcs, galil);
             catch
                 beep;
                 msg = [myData.TimedScript{2} 10 13 lasterr];
@@ -533,7 +546,7 @@ message('Ready!');
         else
             try
                 clear(scr_fname);
-                scriptRun(scr_fname, scr, chip, camera, scope, mfcs);
+                scriptRun(scr_fname, scr, chip, camera, scope, mfcs, galil);
             catch
                 beep;
                 msg = [myData.TimedScript{3} 10 13 lasterr];
@@ -557,7 +570,7 @@ message('Ready!');
         else
             try
                 clear(scr_fname);
-                scriptRun(scr_fname, scr, chip, camera, scope, mfcs);
+                scriptRun(scr_fname, scr, chip, camera, scope, mfcs, galil);
             catch
                 beep;
                 msg = [myData.TimedScript{4} 10 13 lasterr];
@@ -582,7 +595,7 @@ message('Ready!');
         else
             try
                 clear(scr_fname);
-                scriptRun(scr_fname, scr, chip, camera, scope, mfcs);
+                scriptRun(scr_fname, scr, chip, camera, scope, mfcs, galil);
             catch
                 beep;
                 msg = [myData.TimedScript{5} 10 13 lasterr];
@@ -726,7 +739,7 @@ message('Ready!');
                 set(myUiH.ScriptSafeStop, 'BackgroundColor', 'red');
                 set(myUiH.Msg, 'String', ['Script ' myData.FName ' started']);
                 drawnow;
-                scriptRun(myData.FName, scr, chip, camera, scope, mfcs);
+                scriptRun(myData.FName, scr, chip, camera, scope, mfcs, galil);
                 if myData.Stop
                     scr_str = ['Script ' myData.FName ' stopped'];
                 else
