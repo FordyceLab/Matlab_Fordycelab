@@ -10,17 +10,17 @@ classdef ASI_Controller < handle
         pauseTime = 0.05 % allows appropriate time for a command to be sent to the ASI Controller and an output to be returned
         csvFile % the read csvfile that controls the fraction collector.
         fileName % the string name of the file that will control the fraction collector.
-        conversion = % conversion factor between mm and ASI units; 1 mm = 10000 ASI units (0.1 um)
+        conversion = 10000.0 % conversion factor between mm and ASI units; 1 mm = 10000 ASI units (0.1 um)
         serialObj % serial object
     end
     
     methods
         %constructor
         function obj = ASI_Controller(port, baud)
-            flowControl = 'none'
-            parity = 'none'
-            stopBits = 1
-            terminator = 'CR'
+            flowControl = 'none';
+            parity = 'none';
+            stopBits = 1;
+            terminator = 'CR';
 
             obj.serialObj = serial(port, 'BaudRate', baud, 'FlowControl', flowControl, 'Parity', parity, 'StopBits', stopBits, 'Terminator', terminator);
             fopen(obj.serialObj);
@@ -97,7 +97,7 @@ classdef ASI_Controller < handle
                 % converts from millimeters to ASI understood units
                 units = obj.csvFile(tubeNumber,1)*obj.conversion;
                 
-                comStr = strcat('2H M X=', num2str(units)), ' Y=', num2str(units); % absolute position
+                comStr = strcat('2H M X=', num2str(units), ' Y=', num2str(units)); % absolute position
                 
                 obj.sendCommand(comStr);
                 
@@ -146,7 +146,5 @@ classdef ASI_Controller < handle
             %writes the csv file
             csvwrite(inputName,matrix)
         end
-        
     end
-    
 end
