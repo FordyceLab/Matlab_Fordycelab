@@ -95,9 +95,10 @@ classdef ASI_Controller < handle
                 uiwait(msgbox(strcat('There are only ', num2str(numRows), ' possible tubes'),'Error','error','modal'));
             else
                 % converts from millimeters to ASI understood units
-                units = obj.csvFile(tubeNumber,1)*obj.conversion;
+                xPos = obj.csvFile(tubeNumber,1)*obj.conversion;
+                yPos = obj.csvFile(tubeNumber,2)*obj.conversion;
                 
-                comStr = strcat('2H M X=', num2str(units), ' Y=', num2str(units)); % absolute position
+                comStr = strcat('2H M X=', num2str(xPos), ' Y=', num2str(yPos)); % absolute position
                 
                 obj.sendCommand(comStr);
                 
@@ -146,5 +147,7 @@ classdef ASI_Controller < handle
             %writes the csv file
             csvwrite(inputName,matrix)
         end
+        
     end
+    
 end
