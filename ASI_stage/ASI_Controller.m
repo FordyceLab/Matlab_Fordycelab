@@ -31,8 +31,10 @@ classdef ASI_Controller < handle
             XmaxYmin(obj) % move stage to switch limits ("bottom right")
             pause(15)
             obj.sendCommand('2H R X=-5000 Y=5000'); % move axes from switch limits 0.5 mm
-            uiwait(msgbox('Please position dropper above A1'))
+            loadCSV(obj)
             obj.sendCommand('2H HERE X Y') % establish current position as 0,0 (different than HOME)
+            uiwait(msgbox('Position dropper above A1'))
+            
         end
         
         %destructor
@@ -80,35 +82,6 @@ classdef ASI_Controller < handle
         % sends the stage to min X, min Y
         function XminYmin(obj)
             sendCommand(obj, '2H MOVE X=-2000000 Y=-2000000')
-        end
-
-
-        % checks to see if the limits have been tripped. a dialog box pops
-        % up if something has been tripped
-        % does not alert the user immediately after the limit has been
-        % tripped. only alerts the user if a move is attempted after the
-        % limit has already been tripped by a previous move
-        function checkLimits(obj,scanned)
-            % scans for a question mark. strfind returns a vector of type
-            % double of the locations of the ?
-            questionmark = strfind(scanned, '?');
-            
-            % if it is empty, there is no error.
-            % if a question mark has been scanned,
-            if (~isempty(questionmark))
-                fprintf(obj.serialObj,'TC'); % TC asks the ASI what the error code is
-                % fprintf(obj.serialObj,'DU Y'); % DU Y
-                pause(obj.pauseTime);
-                bytes2=obj.serialObj.BytesAvailable; %scans the appropriate number of bytes
-                tcreturn = fscanf(obj.serialObj,'%c',bytes2);
-                
-                % if the error code returned is 22, that means a limit
-                % switch has been tripped. a dialog box is popped up.
-                if (~isempty(strfind(tcreturn,'22')))
-                    uiwait(msgbox('Limit Switch has been turned on. Move the other direction','Error','warn','modal'));
-                end
-            end
-            
         end
         
         %moves the stage to the appropriate tube number according to the
