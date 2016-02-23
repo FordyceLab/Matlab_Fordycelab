@@ -28,8 +28,8 @@ classdef ASI_Controller < handle
             
             % initialize stage position
             obj.sendCommand('2H MC X+ Y+'); % enable/disable motor control for axis
-            XminYmax(obj) % move stage to switch limits ("bottom right")
-            obj.sendCommand('2H R X=5000 Y=-5000'); % move axes from switch limits 0.5 mm
+            XmaxYmin(obj) % move stage to switch limits ("bottom right")
+            obj.sendCommand('2H R X=-5000 Y=5000'); % move axes from switch limits 0.5 mm
             obj.sendCommand('2H HERE X Y') % establish current position as 0,0 (different than HOME)
         end
         
