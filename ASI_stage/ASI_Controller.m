@@ -17,6 +17,7 @@ classdef ASI_Controller < handle
     methods
         %constructor
         function obj = ASI_Controller(port, baud)
+            % setup serial connection
             flowControl = 'none';
             parity = 'none';
             stopBits = 1;
@@ -25,10 +26,11 @@ classdef ASI_Controller < handle
             obj.serialObj = serial(port, 'BaudRate', baud, 'FlowControl', flowControl, 'Parity', parity, 'StopBits', stopBits, 'Terminator', terminator);
             fopen(obj.serialObj);
             
+            % initialize stage position
             obj.sendCommand('2H MC X+ Y+'); % enable/disable motor control for axis
-            obj.sendCommand('2H /'); % status
-            % obj.sendCommand('2H W X Y'); % 
-            obj.sendCommand('2H M X Y'); % move both axes 0,0
+            XminYmax(obj) % move stage to switch limits ("bottom right")
+            obj.sendCommand('2H R X=5000 Y=-5000'); % move axes from switch limits 0.5 mm
+            obj.sendCommand('2H HERE X Y') % establish current position as 0,0 (different than HOME)
         end
         
         %destructor
@@ -57,7 +59,28 @@ classdef ASI_Controller < handle
                 pause(obj.pauseTime);
             end
         end
-        
+
+        % sends the stage to max X, max Y
+        function XmaxYmax(obj)
+            sendCommand(obj, '2H MOVE X=2000000 Y=2000000')
+        end
+
+        % sends the stage to max X, min Y
+        function XmaxYmin(obj)
+            sendCommand(obj, '2H MOVE X=2000000 Y=-2000000')
+        end
+
+        % sends the stage to min X, max Y
+        function XminYmax(obj)
+            sendCommand(obj, '2H MOVE X=-2000000 Y=2000000')
+        end
+
+        % sends the stage to min X, min Y
+        function XminYmin(obj)
+            sendCommand(obj, '2H MOVE X=-2000000 Y=-2000000')
+        end
+
+
         % checks to see if the limits have been tripped. a dialog box pops
         % up if something has been tripped
         % does not alert the user immediately after the limit has been
