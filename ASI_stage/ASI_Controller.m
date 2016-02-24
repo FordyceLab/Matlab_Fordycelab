@@ -29,7 +29,9 @@ classdef ASI_Controller < handle
             % initialize stage position
             obj.sendCommand('2H MC X+ Y+'); % enable/disable motor control for axis
             XmaxYmin(obj) % move stage to switch limits ("bottom right")
-            pause(15)
+            while strcmpi(obj.sendCommand('2H STATUS'), 'B') % wait until stage has completed moving
+                pause(0.2)
+            end
             obj.sendCommand('2H R X=-5000 Y=5000'); % move axes from switch limits 0.5 mm
             loadCSV(obj)
             obj.sendCommand('2H HERE X Y') % establish current position as 0,0 (different than HOME)
