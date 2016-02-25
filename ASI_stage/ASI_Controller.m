@@ -26,17 +26,21 @@ classdef ASI_Controller < handle
             obj.serialObj = serial(port, 'BaudRate', baud, 'FlowControl', flowControl, 'Parity', parity, 'StopBits', stopBits, 'Terminator', terminator);
             fopen(obj.serialObj);
             
-            % initialize stage position
+            % initialize stage position:
             obj.sendCommand('2H MC X+ Y+'); % enable/disable motor control for axis
-            XmaxYmin(obj) % move stage to switch limits ("bottom right")
-            while strcmpi(obj.sendCommand('2H STATUS'), 'B') % wait until stage has completed moving
-                pause(0.2)
-            end
-            obj.sendCommand('2H R X=-5000 Y=5000'); % move axes from switch limits 0.5 mm
-            loadCSV(obj)
-            obj.sendCommand('2H HERE X Y') % establish current position as 0,0 (different than HOME)
-            uiwait(msgbox('Position dropper above A1'))
             
+            obj.XmaxYmin(); % move stage to switch limits ("bottom right")
+            fprintf('Initializing stage')
+            while strncmpi(obj.sendCommand('2H STATUS'), 'B', 1) % wait until stage has completed moving
+                pause(0.5)
+                fprintf('.')
+            end
+            
+            fprintf('\nSelect a platemap (CSV of absolute positions):')
+            obj.sendCommand('2H R X=-5000 Y=5000'); % move axes from switch limits 0.5 mm
+            obj.loadCSV();
+            obj.sendCommand('2H HERE X Y'); % establish current position as 0,0 (different than HOME)
+            uiwait(msgbox('Position dropper above A1'))  
         end
         
         %destructor
