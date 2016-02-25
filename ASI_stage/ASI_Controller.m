@@ -36,7 +36,7 @@ classdef ASI_Controller < handle
                 fprintf('.')
             end
             
-            fprintf('\nSelect a platemap (CSV of absolute positions):')
+            fprintf('\nSelect a platemap (CSV of absolute positions):\n')
             obj.sendCommand('2H R X=-5000 Y=5000'); % move axes from switch limits 0.5 mm
             obj.loadCSV();
             obj.sendCommand('2H HERE X Y'); % establish current position as 0,0 (different than HOME)
