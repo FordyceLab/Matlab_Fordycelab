@@ -2,6 +2,7 @@ function [mfcs] = mfcsGui(serialNum, slave, masterName, errorLog)
 % Creates object to control the MFCS-8C device.
 % Make sure to change serial nums
 %Make a change
+%Polly wants another change
 % mfcs = mfcsGui(serialNum, slave, masterName, errorLog)
 %
 % serialNum = Serial number of the device (double)
