@@ -63,10 +63,6 @@ handles.output = hObject
 handles.ASI = varargin{1}
 guidata(hObject, handles);
 
-handles.ASI.sendCommand('EO 0'); %turn off command echo
-handles.ASI.sendCommand('CN 1,1'); %limit switches active high
-
-
 % UIWAIT makes ASI_GUI wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 

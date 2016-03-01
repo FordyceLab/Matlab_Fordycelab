@@ -12,6 +12,7 @@ classdef ASI_Controller < handle
         fileName % the string name of the file that will control the fraction collector.
         conversion = 10000.0 % conversion factor between mm and ASI units; 1 mm = 10000 ASI units (0.1 um)
         serialObj % serial object
+        tube % stores most recent goToTube() number
     end
     
     methods
@@ -40,7 +41,8 @@ classdef ASI_Controller < handle
             obj.sendCommand('2H R X=-5000 Y=5000'); % move axes from switch limits 0.5 mm
             obj.loadCSV();
             obj.sendCommand('2H HERE X Y'); % establish current position as 0,0 (different than HOME)
-            uiwait(msgbox('Position dropper above A1'))  
+            uiwait(msgbox('Position dropper above A1', 'modal'))
+            obj.tube = 1;
         end
         
         %destructor
@@ -105,7 +107,7 @@ classdef ASI_Controller < handle
                 comStr = strcat('2H M X=', num2str(xPos), ' Y=', num2str(yPos)); % absolute position
                 
                 obj.sendCommand(comStr);
-                
+                obj.tube = tubeNumber; 
             end
         end
         
